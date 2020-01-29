@@ -1,0 +1,49 @@
+* { margin: 0px }
+div
+{
+    display: inline-block;
+    background-color: lightgray;
+    border: 5px solid;
+    margin: 1px;
+    overflow: auto;
+    height: 709px;
+    width: 1520px;
+    position: absolute;
+    
+}
+p
+{
+    font-size: 26px;
+    margin: 10px;
+    padding: 20 85px;
+}
+p:hover { background-color: #b3b3b3 }
+p::first-letter
+{
+    margin-left: 80px
+}
+#last
+{
+    display: inline-block;
+    background-color: goldenrod;
+    color: aliceblue;
+    padding: 10px;
+    position: fixed;
+    top: 670px
+}
+#next
+{
+    display: inline-block;
+    background-color: goldenrod;
+    color: aliceblue;
+    padding: 10px;
+    width: 80px;
+    position: fixed;
+    top: 655px; 
+    left: 1425 
+}
+button:hover
+{
+    background-color: #b3b3b3;
+    border: 0px;
+}
